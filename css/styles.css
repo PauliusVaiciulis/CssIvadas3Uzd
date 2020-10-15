@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+.bodyimg {
+  width: 100%;
+}
+.forminput {
+  margin: 20px 0px;
+}
+.label {
+  display: inline-block;
+  margin: 0px 10px;
+}
+form {
+  border: 1px solid;
+  padding: 0px 10px;
+}
+table, th {
+  border: 1px solid;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  padding: 10px 200px 10px 10px;
+}
+li {
+  list-style-type: disc;
+}
