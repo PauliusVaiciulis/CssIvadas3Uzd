@@ -5,16 +5,14 @@
 .bodyimg {
   width: 100%;
 }
-.forminput {
-  margin: 20px 0px;
-}
 .label {
   display: inline-block;
   margin: 0px 10px;
 }
 form {
   border: 1px solid;
-  padding: 0px 10px;
+  margin: 0px 30%;
+  padding: 10px 10px;
 }
 table, th {
   border: 1px solid;
@@ -25,6 +23,40 @@ table {
 th {
   padding: 10px 200px 10px 10px;
 }
-li {
-  list-style-type: disc;
+nav a {
+  display: inline-block;
+  margin: 0px 5px;
+}
+body {
+  margin: 0px 150px;
+  font-family: 'Commissioner', sans-serif;
+}
+h2, h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+h2 {
+  border-bottom: 2px solid #d1d1de;
+}
+.productimg {
+  display: inline;
+  width: 400px;
+  margin: 0px 5px;
+}
+.textcenter {
+  text-align: center;
+}
+.servicesimg {
+  float: left;
+  width: 500px;
+  margin: 0px 10px 20px 0px;
+}
+.forminput input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.productquote {
+  text-align: center;
+  font-size: 2em;
 }

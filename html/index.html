@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -13,20 +15,20 @@
     <img width="100" src="../images/logo.png" alt="#">
     <p><strong>Company name</strong></p>
 </div>
-<hr>
 <nav>
-    <p><strong>Main menu:</strong></p>
-    <a href="index.html">Home</a><br>
-    <a href="#about">About</a><br>
-    <a href="#products">Products</a><br>
-    <a href="#services">Services</a><br>
+    <p>
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#services">Services</a>
     <a href="#contacts">Contacts</a>
-    <p><strong>Other links:</strong></p>
-    <a href="#">History</a><br>
-    <a href="#">Partners</a><br>
-    <a href="#">Reviews</a><br>
-    <a href="#">Articles</a><br>
+    |
+    <a href="#">History</a>
+    <a href="#">Partners</a>
+    <a href="#">Reviews</a>
+    <a href="#">Articles</a>
     <a href="#">Other</a>
+    </p>
 </nav>
 </header>
 <img class="bodyimg" src="../images/hero.jpg" width="900" alt="#">
@@ -39,11 +41,9 @@
 <p>Optio quaerat deleniti distinctio, perspiciatis dolorum quibusdam sed esse voluptas obcaecati cumque eaque amet hic dolore aliquid deserunt repellendus! Praesentium, tempore nulla cupiditate. Amet, soluta, saepe, eligendi cupiditate aliquid quibusdam fugiat excepturi alias sapiente sit cumque! Rem autem, deserunt mollitia optio qui impedit quod incidunt, ullam eveniet placeat accusantium neque sint voluptatum modi voluptate ut aspernatur ad aut! Quidem asperiores nulla vitae dolorum vel, fugiat quas maiores dignissimos non voluptatum tenetur, fugit aspernatur rerum, in, voluptas a iure molestias veritatis quae deserunt? Eaque tempore, atque, nam dolor cum dolorem quas inventore sint minus minima, ullam iste fuga.</p>
 
 <h3>Our vision</h3>
-<ol>
-    <li>temporibus</li>
-    <li>architecto</li>
-    <li>accusamus</li>
-</ol>
+
+<p class="textcenter"><strong>temporibus &#8226; architecto &#8226; accusamus</strong></p>
+
 <p>Ex temporibus qui repudiandae. Adipisci unde, molestias rerum tempore assumenda fugit accusamus maiores consequatur
 
 <strong>voluptatem quas minus vel dolorum</strong>
@@ -61,23 +61,25 @@
   Aliquam vel quisquam libero aut provident, ab facilis neque architecto minima ipsum est, perferendis doloribus laboriosam. Commodi, aut officia similique repellendus veniam, non dicta nisi animi facilis quam nobis illum dolorem!
 
   <h2 id="products">Products</h2>
-  <img class="bodyimg" src="../images/product.jpg" width="900" alt="#">
-  <img class="bodyimg" src="../images/product2.jpg" width="900" alt="#">
-  <img class="bodyimg" src="../images/product3.jpg" width="900" alt="#">
-
-  <p style="font-style: italic;">"Ex temporibus qui repudiandae."</p>
+  <div class="textcenter">
+  <img class="productimg" src="../images/product.jpg" width="900" alt="#">
+  <img class="productimg" src="../images/product2.jpg" width="900" alt="#">
+  <img class="productimg" src="../images/product3.jpg" width="900" alt="#">
+  </div>
+  <p class="productquote" style="font-style: italic;">"Ex temporibus qui repudiandae."</p>
 
   <p>Tempora sit impedit beatae at blanditiis repellat ducimus accusamus est recusandae voluptate quasi dolorum explicabo architecto incidunt ex, facilis veritatis, soluta, quas optio hic delectus! Aliquam vel quisquam libero aut provident, ab facilis neque architecto minima ipsum est, perferendis doloribus laboriosam. Commodi, aut officia similique repellendus veniam, non dicta nisi animi facilis quam nobis illum dolorem!</p>
 
 
   <h2 id="services">Services</h2>
-
-  <p>Tempora sit impedit beatae at blanditiis repellat ducimus accusamus est recusandae voluptate quasi dolorum explicabo architecto incidunt ex, facilis veritatis, soluta,
+  <div class="servicesimg">
+  <img class="bodyimg" src="../images/services.jpg" width="900" alt="#">
+  </div>
+  <p class="servicep">Tempora sit impedit beatae at blanditiis repellat ducimus accusamus est recusandae voluptate quasi dolorum explicabo architecto incidunt ex, facilis veritatis, soluta,
 
   <span style="text-decoration: underline;">quas optio hic delectus! Aliquam vel quisquam libero aut provident,</span>
 
   ab facilis neque architecto minima ipsum est, perferendis doloribus laboriosam. Commodi, aut officia similique repellendus veniam, non dicta nisi animi facilis quam nobis illum dolorem!</p>
-  <img class="bodyimg" src="../images/services.jpg" width="900" alt="#">
 <table>
 <tr>
     <th>Service</th>
@@ -118,33 +120,22 @@
 </table>
 <h2 id="contacts">Contacts</h2>
 <form>
-    <div class="forminput">
-        <div class="label">
-            <label for="name">Name:</label>
+        <div class="forminput">
+        <input type="text" placeholder="Your name">
         </div>
-        <input type="text" id="name">
-        <div class="label">
-            <label for="surname">Surname:</label>
+        <div class="forminput">
+        <input type="text" placeholder="Your surname">
         </div>
-        <input type="text" id="surname">
-    </div>
-    <div class="forminput">
-        <div class="label">
-            <label for="email">Email:</label>
+        <div class="forminput">
+        <input type="email" placeholder="Email">
         </div>
-        <input type="email" id="email">
-
-        <div class="label">
-            <label for="mobile">Mobile:</label>
+        <div class="forminput">
+        <input type="tel" placeholder="Phone">
         </div>
-        <input type="tel" id="mobile">
-    </div>
-    <div class="forminput">
-        <textarea rows="8" cols="80" placeholder="Type your message"></textarea><br>
-    </div>
-    <div class="forminput">
+        <div class="forminput">
+        <textarea rows="8" cols="80" placeholder="Type your message"></textarea>
+        </div>
         <input type="submit">
-    </div>
 </form>
 <p style="background-color: yellow;">All rights reserved
 <a href="#">some company</a>
